@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quiz Test</title>
+    <link rel="stylesheet" type="text/css" href="/week_3_ip/quizboard/quiz_css/quiz.css" />
+  </head>
+  <body>
+    <form class="assignment">
+        <div class="container1" id="Q1">
+            <p>(i) Which one of the following is a programming language? <em>(1 mark)</em></p>
+            <p><input type="radio" name="questionOne" id="r1" value="Javascript" />Javascript</p>
+            <p><input type="radio" name="questionOne" id="r1" value="Java" />Java</p>
+            <p><input type="radio" name="questionOne" id="r1" value="C++" />C++</p>
+            <p><input type="radio" name="questionOne" id="r1" value="All the above" />All the above</p>
+        </div>
+      
+
+      <div class="container2" id="Q2">
+            <p>(ii) What is the main use of css in programming? <em>(1 mark)</em></p>
+            <p><input type="radio" name="questionTwo" id="r2" value="Styling" />Styling</p>
+            <p><input type="radio" name="questionTwo" id="r2" value="Storage" />Storage</p>
+            <p><input type="radio" name="questionTwo" id="r2" value="Programming" />Programming</p>
+            <p><input type="radio" name="questionTwo" id="r2" value="None of the above" />None of the above</p>
+        </div>
+
+      <div class="container3" id="Q3">
+            <p>(iii) What is the meaning of "===" in Javascript?</em></p>
+            <p><input type="radio" name="questionThree" id="r3" value="Strictly equal to" />Strictly equal to</p>
+            <p><input type="radio" name="questionThree" id="r3" value="Modulus" />Modulus</p>
+            <p><input type="radio" name="questionThree" id="r3" value="Equal sign" />Equal sign</p>
+            <p><input type="radio" name="questionThree" id="r3" value="None of the above" />None of the above</p>
+      </div>
+
+      <div class="container4" id="Q4">
+            <p>(iv) What is 7%3 <em>(2 marks)</em></p>
+            <p><input type="radio" name="questionFour" id="r4" value="1" />1</p>
+            <p><input type="radio" name="questionFour" id="r4" value="2.5" />2.5</p>
+            <p><input type="radio" name="questionFour" id="r4" value="0" />0</p>
+            <p><input type="radio" name="questionFour" id="r4" value="21" />21</p>
+      </div>
+
+      <div class="container5" id="Q5">
+            <p>(v) 10%2 === 0<em>(2 marks)</em></p>
+            <p><input type="radio" name="questionFive" id="r5" value="True" />True</p>
+            <p><input type="radio" name="questionFive" id="r5" value="False" />False</p>
+            <p><input type="radio" name="questionFive" id="r5" value="None of the above" />None of the above</p>
+      </div>
+
+      <div class="container6" id="Q6">
+            <p>(vi) Which company owns bootstrap? <em>(2 marks)</em></p>
+            <p><input type="radio" name="questionSix" id="r6" value="Twitter" />Twitter</p>
+            <p><input type="radio" name="questionSix" id="r6" value="Meta" />Meta</p>
+            <p><input type="radio" name="questionSix" id="r6" value="Elon" />Elon</p>
+            <p><input type="radio" name="questionSix" id="r6" value="Safaricom" />Safaricom</p>
+      </div>
+
+      <div class="container7" id="Q7">
+            <p>(vii) A denoting system of algebraic notation used to represent logical propositions by means of the binary digits 0 (false) and 1 (true) is called?<em>(2 marks)</em></p>
+            <p><input type="radio" name="questionSeven" id="r7" value="Boolean" />Boolean</p>
+            <p><input type="radio" name="questionSeven" id="r7" value="Code" />Code</p>
+            <p><input type="radio" name="questionSeven" id="r7" value="Algorithim" />Algorithim</p>     
+      </div>
+
+      <div class="container8" id="Q8">
+            <p> (viii) What outputs a message to the web console? <em>(2 marks)</em></p>
+            <p><input type="radio" name="questionEight" id="r8" value="Console.log" />Console.log</p>
+            <p><input type="radio" name="questionEight" id="r8" value="Console" />Console</p>
+            <p><input type="radio" name="questionEight" id="r8" value="Snippet" />Snippet</p>
+      </div>
+
+      <div class="container9" id="Q9">
+            <p> (ix) HTML alone cannot produce dynamic output alone, since it's a static language.<em>(3 marks)</em></p>
+            <p><input type="radio" name="questionNine" id="r9" value="True" />True</p>
+            <p><input type="radio" name="questionNine" id="r9" value="False" />False</p>
+            <p><input type="radio" name="questionNine" id="r9" value="None of the above" />None of the above</p>
+      </div>
+
+      <div class="container10" id="Q10">
+            <p>(x) Evaluate 2**2 <em>(3 marks)</em></p>
+            <p><input type="radio" name="questionTen" id="r10" value="2" />2</p>
+            <p><input type="radio" name="questionTen" id="r10" value="1" />1</p>
+            <p><input type="radio" name="questionTen" id="r10" value="4" />4</p>
+      </div>
+
+      <div id="submit"><input type="button" value="submit" onclick="checkers()" />
+</div>
+    </form>
+    <div>
+      <p id="done" class="done"></p>
+      <p id="statement" class="statement"></p>
+    </div>
+    <div id="restart">
+      <a id="res" href="">RESTART QUIZ</a>
+    </div>
+
+    <script src="/week_3_ip/quizboard/quiz_js/main.js"></script>
+  </body>
+</html>
