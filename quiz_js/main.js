@@ -85,12 +85,12 @@ function quizValidator() {
   }
   quiz.style.display = "none";
   if (marks <= 5) {
-    done.textContent = "You have marksd " + marks + " marks, please retake the assesment!";
+    done.textContent = "You have scored marks " + marks + " marks, please retake the assesment!";
   } else if (marks <= 10) {
-    done.textContent = "You have marksd " + marks + " marks, you can do better!";
+    done.textContent = "You have scored marks " + marks + " marks, you can do better!";
   } else if (marks <= 15) {
-    done.textContent = "You have marksd " + marks + " marks, good work!";
+    done.textContent = "You have scored marks " + marks + " marks, good work!";
   } else if (marks <= 20) {
-    done.textContent = "You have marksd " + marks + " marks, Excellent!!!"
+    done.textContent = "You have scored marks " + marks + " marks, Excellent!!!"
   }
 }
