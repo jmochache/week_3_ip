@@ -1,5 +1,3 @@
-// JM
-
 function quizValidator() {
   var rightAnswer = ["Javascript", "Styling", "Strictly equal to", "1", "True", "Twitter", "Boolean", "Console.log", "True", "4"];
   var marks = 0;
