@@ -85,7 +85,7 @@ function quizValidator() {
   }
   quiz.style.display = "none";
   if (marks <= 5) {
-    done.textContent = "You have scored marks " + marks + " marks, please retake the assesment!";
+    done.textContent = "You have scored marks " + marks + " marks, please retake the assesment by clicking on the Start again button below!";
   } else if (marks <= 10) {
     done.textContent = "You have scored marks " + marks + " marks, you can do better!";
   } else if (marks <= 15) {

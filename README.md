@@ -3,7 +3,7 @@
 # Project description.
 ### This is a project to showcase my skills acquired sor far from Moringa School, the project is about a quizboard testing programming skills around HTML, CSS and Javascript
 # Author
-### The author for this is Josphat Mochache
+### Josphat Mochache
 # Setup instructions
 ### Application does not need any setup
 # BDD.
