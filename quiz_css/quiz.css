@@ -1,9 +1,14 @@
 #Body{
-    background-color: peru;  
+    background-color: Black;  
+    color: aquamarine;
 }
 
 #submit{
     color: yellow;
+}
+
+.Heading{
+    color:burlywood ;
 }
 
 
